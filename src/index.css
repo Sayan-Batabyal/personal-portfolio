@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Great Vibes');
+@import url('https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Roboto+Slab');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
