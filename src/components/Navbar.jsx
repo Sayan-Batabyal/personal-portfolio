@@ -18,7 +18,7 @@ const path=useLocation()
 
 const Navbar = () => {
   return (
-    <header className='w-full px-32 py-8 font-medium text-white flex items-center justify-between'>
+    <header className=' sm:invisible md:invisible lg:visible w-full px-32 py-8 font-medium text-white flex items-center justify-between'>
        <Logo/> 
        
        <nav>

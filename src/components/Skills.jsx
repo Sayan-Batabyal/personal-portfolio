@@ -3,9 +3,16 @@ import AnimatedText from './AnimatedText'
 import Layout from './Layout'
 import AnimateNumber from './AnimateNumber'
 import Techs from './Techs'
+import Education from './Education'
+import Transition from './Transition'
+import { AnimatePresence } from 'framer-motion'
+import Navbar from './Navbar'
 
 const Skills = () => {
   return (
+    <>
+    <Transition/>
+
     <div className='text-white flex w-full fex-col items-center justify-center'>
       <Layout className='pt-16'>
       <AnimatedText text="Passion Fuels Purpose !"/>
@@ -30,8 +37,11 @@ const Skills = () => {
         </div>
        </div>
        <Techs/>
+      <Education/>
       </Layout>
     </div>
+    </>
+
   )
 }
 

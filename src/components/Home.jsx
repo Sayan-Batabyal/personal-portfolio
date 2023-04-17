@@ -2,9 +2,14 @@ import React from 'react'
 import Layout from './Layout'
 import AnimatedText from './AnimatedText'
 import { LinkArrow } from './icons'
+import Transition from './Transition'
+import { AnimatePresence } from 'framer-motion'
+import Navbar from './Navbar'
 
 const Home = () => {
   return (
+    <>
+    <Transition/>
     <div className='text-white flex items-center w-full min-h-fit'>
        <Layout className='pt-30'>
        <AnimatedText text="H e l l o, &nbsp; I &nbsp; a m" className='text-left !text-4xl !text-sky-500' />
@@ -20,6 +25,7 @@ const Home = () => {
           </div>
         </Layout>
     </div>
+    </>
   )
 }
 

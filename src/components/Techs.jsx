@@ -27,7 +27,6 @@ const Techs = () => {
         >    
        <IconCpp className='fill-purple-500'/>
         </motion.div>
-
         <ItemSkills text={<IconReact className='fill-sky-400 mt-1'/>} title="React JS" x="-12vw" y="-18vw"/>
         <ItemSkills text={<IconHtml5 className='fill-orange-500 mt-1 '/>} title="HTML" x="-19vw" y="2vw"/>
         <ItemSkills text={<IconJS className='fill-yellow-500 mt-1'/>} title="JavaScript" x="20vw" y="8vw"/>
@@ -36,10 +35,7 @@ const Techs = () => {
         <ItemSkills text={<IconTail className='mt-0'/>} title="Tailwind" x="1vw" y="10vw"/>
         <ItemSkills text={<IconExpress className='fill-gray-400 -mt-1'/>} title="Express" x="7vw" y="-14vw"/>
         <ItemSkills text={<Mongo className=' mt-1'/>} title="MongoDB" x="-6vw" y="-7vw"/>
-
-
         
-
     </div>
     </>
   )
