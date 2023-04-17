@@ -8,7 +8,7 @@ const ItemSkills= ({text,title,x,y})=>{
         whileHover={{scale:1.05}}
         initial={{x:0,y:0}}
         whileInView={{x:x,y:y}}
-        viewport={{once:true}}
+        viewport={{once:false}}
         transition={{duration:1.5}}
         >
         <span className='!text-sm'>{title}</span>

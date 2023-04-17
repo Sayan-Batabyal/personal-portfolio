@@ -14,7 +14,7 @@ const Project= ({type,title,img,link,github})=>{
   initial={{y:150}}
   whileInView={{y:0}}
   transition={{duration:0.5,type:"spring"}}
-  viewport={{once:true}}
+  viewport={{once:false}}
   
   >
     <a href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg'>
