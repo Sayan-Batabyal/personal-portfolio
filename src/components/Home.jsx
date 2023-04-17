@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
         <div className='flex gap-3'>
-            <a href="../public/sayan.pdf" className='flex items-center bg-white text-black p-2.5 px-6 rounded-lg text-lg font-bold hover:bg-sky-500 transition:all ease-in duration-100 ' download={true}>Resume <LinkArrow className='w-6 ml-1'/></a>
+            <a href="../public/SayanBatabyal-CV.pdf" className='flex items-center bg-white text-black p-2.5 px-6 rounded-lg text-lg font-bold hover:bg-sky-500 transition:all ease-in duration-100 ' download={true}>Resume <LinkArrow className='w-6 ml-1'/></a>
             <a href='mailto:sayanbatabyal.mav@gmail.com' className='flex items-center font-bold ml-4 border-b-0 border-sky-500 hover:border-b-4 transition:[border] ease-in duration-100'>Connect</a>
           </div>
         </Layout>
