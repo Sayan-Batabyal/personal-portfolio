@@ -41,8 +41,8 @@ const Projects = () => {
     <>
     <div className=' text-white w-full  bg-black flex flex-col justify-center items-center ' >
        <Layout className='pt-16'>
-        <AnimatedText text="Imagination Trumps Knowledge!" className=' text-xl lg:text-5xl mb-16'/>
-        <div className='grid lg:grid-cols-12 gap-24 sm:grid-cols-4'>
+        <AnimatedText text="Imagination Trumps Knowledge!" className=' sm:text-xl md:text-3xl text-5xl mb-16'/>
+        <div className='grid lg:grid-cols-12 gap-24 sm:grid-cols-4 md:grid-cols-8'>
           <div className='col-span-4'>
             <Project type="React | Tailwind CSS" title="Personal Portfolio" img={projImg} link="/" github="/" />
           </div>
