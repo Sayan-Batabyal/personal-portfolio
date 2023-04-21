@@ -3,8 +3,6 @@ import Layout from './Layout'
 import AnimatedText from './AnimatedText'
 import { LinkArrow } from './icons'
 import Transition from './Transition'
-import { AnimatePresence } from 'framer-motion'
-import Navbar from './Navbar'
 
 const Home = () => {
   return (

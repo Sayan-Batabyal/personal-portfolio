@@ -5,8 +5,6 @@ import AnimateNumber from './AnimateNumber'
 import Techs from './Techs'
 import Education from './Education'
 import Transition from './Transition'
-import { AnimatePresence } from 'framer-motion'
-import Navbar from './Navbar'
 
 const Skills = () => {
   return (
