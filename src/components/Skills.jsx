@@ -5,12 +5,17 @@ import AnimateNumber from './AnimateNumber'
 import Techs from './Techs'
 import Education from './Education'
 import Transition from './Transition'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
 
   return (
-    <>
-    <Transition/>
+    <motion.div
+    initial={{y:150}}
+  whileInView={{y:0}}
+  transition={{duration:0.5,type:"spring"}}
+  viewport={{once:false}}
+    >
 
     <div className='text-white w-full bg-black flex flex-col justify-center items-center'>
      <Layout>
@@ -40,7 +45,7 @@ const Skills = () => {
        </Layout>
     </div>
 
-    </>
+    </motion.div>
 
   )
 }
