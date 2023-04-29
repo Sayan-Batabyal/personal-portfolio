@@ -16,7 +16,7 @@ const Home = () => {
     <>
     <Transition/>
     <div className='text-white flex items-center w-full min-h-fit'>
-       <Layout className='pt-30 md:pt-40 sm:pt-40'>
+       <Layout className='pt-10 md:pt-20 sm:pt-30'>
        <AnimatedText text="H e l l o, &nbsp; I &nbsp; a m" className='text-left !text-4xl !text-sky-500 xl:!text-6xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-4xl ' />
         <div className="flex items-center justify-between w-full">
           <div className=''>
