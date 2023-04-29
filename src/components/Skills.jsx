@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AnimatedText from './AnimatedText'
 import Layout from './Layout'
 import AnimateNumber from './AnimateNumber'
@@ -7,13 +7,14 @@ import Education from './Education'
 import Transition from './Transition'
 
 const Skills = () => {
+
   return (
     <>
     <Transition/>
 
     <div className='text-white flex w-full fex-col items-center justify-center'>
       <Layout className='pt-16'>
-      <AnimatedText text="Passion Fuels Purpose !"/>
+      <AnimatedText text="Passion Fuels Purpose !" />
        <div className=' mt-10 col-span-2 flex gap-10  items-center justify-center'>
         <div className=''>
          <p>Rated</p>
