@@ -42,12 +42,13 @@ const Navbar = () => {
     setOpen(!open)
   }
   return (
-    <header className='w-full lg:px-16 md:px-12 sm:px-8 px-32  py-8 font-medium text-white flex items-center justify-between relative '>
+    <header className='w-full lg:px-16 md:px-12 sm:px-8 px-32  py-8 font-medium text-white flex items-center justify-center gap-7 relative '>
        <button className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
         <span className={`bg-white block h-0.5 w-6  transition-all duration-300 ease-out  ${open?`rotate-45 translate-y-1`:'-translate-y-0.5'} `}></span>
         <span className={`${open?`opacity-0`:'opacity-100'} bg-white block h-0.5 w-6  transition-all duration-300 ease-out my-0.5`}></span>
         <span className={`bg-white block h-0.5 w-6  transition-all duration-300 ease-out translate-y-0.5  ${open?`-rotate-45 -translate-y-1`:'translate-y-0.5'}  `}></span>
        </button>
+       <Logo className='hidden lg:flex'/> 
        <div className='w-full flex justify-between items-center lg:hidden'>
        <Logo/> 
        <nav>
@@ -81,7 +82,7 @@ const Navbar = () => {
         animate={{scale:1,opacity:1}}
         transition={{duration:0.3}}
         >
-        <Logo className='text-black'/> 
+        
         <nav className='flex items-center flex-col justify-center'>
             <CustomMobileLink toggle={handleClick} title="Home" link="/" className=''/>
             <CustomMobileLink toggle={handleClick} title="Skills" link="/skills" className=''/>

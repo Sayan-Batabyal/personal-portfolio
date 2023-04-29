@@ -6,6 +6,8 @@ import projImg from '../assets/proj1.jpg'
 import { AnimatePresence, motion } from 'framer-motion';
 import Transition from './Transition';
 import Navbar from './Navbar';
+import Education from './Education';
+import Techs from './Techs';
 const Project= ({type,title,img,link,github})=>{
 
   return (
@@ -41,8 +43,8 @@ const Projects = () => {
     <>
     <div className=' text-white w-full  bg-black flex flex-col justify-center items-center ' >
        <Layout className='pt-16'>
-        <AnimatedText text="Imagination Trumps Knowledge!" className=' sm:text-xl md:text-3xl text-5xl mb-16'/>
-        <div className='grid lg:grid-cols-12 gap-24 sm:grid-cols-4 md:grid-cols-8'>
+        <AnimatedText text="Imagination Trumps Knowledge!" className=' lg:!text-7xl sm:!text-3xl xs:!text-2xl mb-16'/>
+        <div className='grid grid-cols-12 gap-24  sm:grid-cols-4 lg:grid-cols-8'>
           <div className='col-span-4'>
             <Project type="React | Tailwind CSS" title="Personal Portfolio" img={projImg} link="/" github="/" />
           </div>
@@ -74,7 +76,6 @@ const Projects = () => {
 
         </div>
        </Layout>
-
     </div>
     </>
   )

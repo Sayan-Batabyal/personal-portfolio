@@ -12,7 +12,9 @@ export default {
       },
 
       backgroundImage:{
-        circulardark:'repeating-radial-gradient(rgba(255,255,255,0.2) 4px, rgba(0,0,30) 10px,  rgba(0,0,0) 100px );'
+        circulardark:'repeating-radial-gradient(rgba(255,255,255,0.2) 4px, rgba(0,0,30) 10px,  rgba(0,0,0) 100px );',
+        circulardarkSm:'repeating-radial-gradient(rgba(255,255,255,0.2) 4px, rgba(0,0,30) 5px,  rgba(0,0,0) 30px );',
+        
       }
     },
     screens:{
