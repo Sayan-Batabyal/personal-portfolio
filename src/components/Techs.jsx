@@ -22,7 +22,7 @@ const Techs = () => {
   return (
     <>
     <Layout className='!pt-2'>
-    <h2 className=' font-bold text-8xl mt-64 md:mt-32 w-full text-center lg:!text-7xl sm:!text-3xl xs:!text-2xl'>Skills</h2>
+    <h2 className=' font-bold text-8xl mt-64 md:mt-32 sm:mt-16 marker:mt:1 w-full text-center lg:!text-7xl sm:!text-3xl xs:!text-2xl'>Skills</h2>
     <div className='bg-circulardark sm:bg-circulardarkSm  lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] w-full h-screen relative flex items-center justify-center rounded-full '>
         <motion.div className='flex text-6xl items-center justify-center rounded-full cursor-pointer' 
         whileHover={{scale:1.05}}
