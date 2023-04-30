@@ -4,7 +4,7 @@ import React from 'react'
 const LiIcon = ({refer}) => {
     const {scrollYProgress}=useScroll({
         target:refer,
-        offset:["center end","center center"]
+        offset:["start end","start center"]
     })
   return (
     <figure className='absolute left-0 stroke-white'>
