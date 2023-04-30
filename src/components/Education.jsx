@@ -33,7 +33,7 @@ const Education = () => {
   return (
 
 
-    <div  className='mb-[40px] mt-10' >
+    <div  className='mb-[100px] mt-10' >
         <h2 className='font-bold text-8xl text-white  py-10 sm:mt-10 w-full text-center lg:!text-7xl sm:!text-3xl xs:!text-2xl'>Education</h2>
         <div ref={ref} className='w-[75%]  mx-auto relative lg:w-[90%] md:w-full  '>
             <motion.div style={{scaleY:scrollYProgress}} className='absolute left-9  top-0 w-[4px] h-full bg-white origin-top md:w-[2px] md:left-[30px] xs:left-[20px]' />
