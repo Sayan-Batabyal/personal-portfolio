@@ -77,8 +77,8 @@ const Navbar = () => {
         </nav>
        </div>
       {
-        open&& <motion.div className=' bg-white/95 rounded-lg  py-32  min-w-[70vw] flex flex-col  justify-between items-center z-30 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'
-        initial={{y:["50%"],x:["-50%"], scale:0, opacity:0}}
+        open&& <motion.div className=' bg-white rounded-lg  py-32  min-w-[70vw] flex flex-col  justify-between items-center z-30 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'
+        initial={{y:["30%"],x:["-50%"], scale:0, opacity:0}}
         animate={{scale:1,opacity:1}}
         transition={{duration:0.3}}
         >
