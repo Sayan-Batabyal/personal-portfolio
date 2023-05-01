@@ -3,14 +3,14 @@ import Layout from './Layout'
 import AnimatedText from './AnimatedText'
 import { LinkArrow } from './icons'
 import Transition from './Transition'
-import resume from '/public/SayanBatabyal-CV.pdf'
+import resume from '../assets/SayanBatabyal-CV.pdf';
 const Home = () => {
   
   return (
     <>
     <Transition/>
     <div className='text-white flex items-center w-full min-h-fit'>
-       <Layout className='pt-30 md:pt-[70px] sm:pt-[100px]'>
+       <Layout className=' pt-30 md:pt-[70px] sm:pt-[100px]'>
        <AnimatedText text="H e l l o, &nbsp; I &nbsp; a m" className='text-left !text-4xl !text-sky-500 xl:!text-6xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-4xl ' />
         <div className="flex items-center justify-between w-full">
           <div className=''>

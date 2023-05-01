@@ -13,8 +13,10 @@ function App() {
   const location = useLocation();
   return (
    
+    
     <div className="App w-full min-h-screen bg-black">
-    <Navbar/>
+      
+      <Navbar/>
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Home/>}/> 
       <Route path="/skills" element={<Skills/>}/>

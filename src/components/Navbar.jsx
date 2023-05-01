@@ -42,7 +42,7 @@ const Navbar = () => {
     setOpen(!open)
   }
   return (
-    <header className='w-full lg:px-16 md:px-12 sm:px-8 px-32  py-8 font-medium text-white flex items-center justify-center gap-7 relative '>
+    <header className='bg-blue-500/20 z-10 backdrop-blur-md top-0 sticky w-full lg:px-16 md:px-12 sm:px-8 px-32  sm:py-4 py-8 font-medium text-white flex items-center justify-center gap-7 '>
        <button className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
         <span className={`bg-white block h-0.5 w-6  transition-all duration-300 ease-out  ${open?`rotate-45 translate-y-1`:'-translate-y-0.5'} `}></span>
         <span className={`${open?`opacity-0`:'opacity-100'} bg-white block h-0.5 w-6  transition-all duration-300 ease-out my-0.5`}></span>
@@ -77,8 +77,8 @@ const Navbar = () => {
         </nav>
        </div>
       {
-        open&& <motion.div className=' bg-white/75 rounded-lg backdrop-blur-md py-32  min-w-[70vw] flex flex-col  justify-between items-center z-30 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'
-        initial={{y:["-50%"],x:["-50%"], scale:0, opacity:0}}
+        open&& <motion.div className=' bg-white/95 rounded-lg  py-32  min-w-[70vw] flex flex-col  justify-between items-center z-30 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'
+        initial={{y:["50%"],x:["-50%"], scale:0, opacity:0}}
         animate={{scale:1,opacity:1}}
         transition={{duration:0.3}}
         >

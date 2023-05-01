@@ -19,8 +19,8 @@ const Skills = () => {
 
     <div className='text-white w-full bg-black flex flex-col justify-center items-center'>
      <Layout>
-      <AnimatedText text="Passion Fuels Purpose !" className='lg:!text-7xl sm:!text-3xl xs:!text-2xl'/>
-       <div className=' mt-10 col-span-2 flex gap-10 sm:gap-4 items-center justify-center'>
+      <AnimatedText text="Passion Fuels Purpose !" className='lg:!text-6xl sm:!text-3xl xs:!text-2xl'/>
+       <div className=' mt-10 col-span-2 flex gap-10  sm:gap-4 items-center justify-center'>
         <div className=''>
          <p>Rated</p>
         <span className=' text-7xl lg:!text-6xl sm:!text-3xl xs:!text-2xl font-bold'><AnimateNumber value={1702}/></span>
