@@ -15,7 +15,7 @@ function App() {
    
     
     <div className="App w-full min-h-screen bg-black">
-      
+
       <Navbar/>
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Home/>}/> 
