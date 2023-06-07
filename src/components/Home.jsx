@@ -10,7 +10,7 @@ const Home = () => {
     <>
     <Transition/>
     <div className='text-white flex items-center w-full min-h-fit'>
-       <Layout className=' pt-30 md:pt-[70px] sm:mt-[100px] sm:!p-16'>
+       <Layout className=' pt-30 md:pt-[70px] sm:mt-[70px] sm:!p-12'>
        <AnimatedText text="Hello, I am " className='text-left  !text-4xl !text-sky-500 xl:!text-6xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-4xl ' />
         <div className="flex items-center justify-between w-full">
           <div className=''>
