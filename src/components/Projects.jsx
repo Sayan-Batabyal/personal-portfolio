@@ -3,6 +3,9 @@ import Layout from './Layout'
 import AnimatedText from './AnimatedText'
 import { GithubIcon, LinkArrow } from './icons';
 import projImg from '../assets/proj1.jpg'
+import proj2Img from '../assets/proj2.png'
+import proj3Img from '../assets/proj3.png'
+
 import { AnimatePresence, motion } from 'framer-motion';
 import Transition from './Transition';
 import Navbar from './Navbar';
@@ -16,7 +19,7 @@ const Project= ({type,title,img,link,github})=>{
   initial={{y:150}}
   whileInView={{y:0}}
   transition={{duration:0.5,type:"spring"}}
-  viewport={{once:false}}
+  viewport={{once:true}}
   
   >
     <a href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg'>
@@ -46,32 +49,13 @@ const Projects = () => {
         <AnimatedText text="Imagination Trumps Knowledge!" className=' lg:!text-7xl sm:!text-3xl xs:!text-2xl mb-16'/>
         <div className='grid grid-cols-12 gap-24  sm:grid-cols-4 lg:grid-cols-8'>
           <div className='col-span-4'>
-            <Project type="React | Tailwind CSS" title="Personal Portfolio" img={projImg} link="/" github="/" />
+            <Project type="React | Tailwind | Framer-Motion" title="Personal Portfolio" img={projImg} link="https://sayan-batabyal-portfolio.netlify.app/" github="https://github.com/Sayan-Batabyal/personal-portfolio" />
           </div>
           <div className='col-span-4'>
-            <Project type="Project" title="Personal Portfolio" img={projImg} link="/" github="/" />
+            <Project type="React | Saas | Express | MongoDB" title="Hotel Admin App" img={proj2Img} link="https://hotels-admin-portal.netlify.app/" github="https://github.com/Sayan-Batabyal/hotel-book-admin" />
           </div>
           <div className='col-span-4'>
-            <Project type="Project" title="Personal Portfolio" img={projImg} link="/" github="/" />
-          </div>
-          <div className='col-span-4'>
-            <Project type="Project" title="Personal Portfolio" img={projImg} link="/" github="/" />
-          </div>
-          <div className='col-span-4'>
-            <Project type="Project" title="Personal Portfolio" img={projImg} link="/" github="/" />
-          </div>
-
-          <div className='col-span-4'>
-            <Project type="Project" title="Personal Portfolio" img={projImg} link="/" github="/" />
-          </div>
-          <div className='col-span-4'>
-            <Project type="Project" title="Personal Portfolio" img={projImg} link="/" github="/" />
-          </div>
-          <div className='col-span-4'>
-            <Project type="Project" title="Personal Portfolio" img={projImg} link="/" github="/" />
-          </div>
-          <div className='col-span-4'>
-            <Project type="Project" title="Personal Portfolio" img={projImg} link="/" github="/" />
+            <Project type="Javascript | P5.js" title="Sorting Visualiser" img={proj3Img} link="https://merge-sort-visualiser.netlify.app/" github="https://github.com/Sayan-Batabyal/Merge_Sort" />
           </div>
 
         </div>
